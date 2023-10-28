@@ -1,0 +1,306 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous")
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        link(rel="stylesheet", href="css/main.css")
+        title Document
+    body   
+        header.header
+            .container
+                .header__logo
+                    a(href='#')
+                        img(src='img/Logo.png' alt='alt')
+                .header__menu
+                    ul
+                        li
+                            a(href='#') Discover initiatives
+                        li
+                            a(href='#') Funded grants
+                        li
+                            a(href='#') Program expenses
+                        li
+                            a(href='#') Blog
+                        li
+                            a(href='#') FAQ
+                .header__btn
+                    button.bn.bn-headerApply for grant
+                a.btnn.btn-primare(data-bs-toggle='offcanvas' href='#offcanvasExample' role='button' aria-controls='offcanvasExample')
+                    i.fa-solid.fa-bars
+                        #offcanvasExample.offcanvas.offcanvas-start(tabindex='-1' aria-labelledby='offcanvasExampleLabel')
+                .offcanvas-header
+                    i.fa-solid.fa-x(data-bs-dismiss='offcanvas' aria-label='Close')
+                .offcanvas-body
+                .offcanvas__logo
+                    img(src='img/Logo.png' alt='alt')
+                .header__menun
+                    ul
+                        li
+                            a(href='#') Discover initiatives
+                        li
+                            a(href='#') Funded grants
+                        li
+                            a(href='#') Program expenses
+                        li
+                            a(href='#') Blog
+                        li
+                            a(href='#') FAQ
+                .dropdown.mt-3
+                    .col-md-6.col-sm-6.col-12
+                        .header__btnn
+                            button.bn.bn-header Apply for grant
+                    ul.dropdown-menu(aria-labelledby='dropdownMenuButton')
+                        li
+                            a.dropdown-item(href='#') Action
+                        li
+                            a.dropdown-item(href='#') Another action
+                        li
+                            a.dropdown-item(href='#') Something else here
+        section.home
+            .container
+                .row
+                    .home__title
+                        h1 Powering the future of dYdX through community grants
+                    .home__img
+                        img(src='img/001.png' alt='')
+                    .home__btn
+                        button.bn.bn-home Discover RFPs
+                    .home__button
+                        button.bn.bn-home1 Apply for grant
+                        i.fa-solid.fa-arrow-right
+                    .home__funden
+                        .col-md-4
+                            .sass
+                                .funden__title
+                                    h4 100+
+                                .funden__desc
+                                    p projects funded
+                        .col-md-2
+                            .sass
+                                .funden__title
+                                    h4 $3+ milion
+                                .funden__desc
+                                    p awarded
+                                .col-md-4
+                                    .sass
+                                .funden__title
+                                    h4 400+
+                                .funden__desc
+                                    p projects funded
+                                .img__image
+                                    img(src='img/pastki strelka.png' alt='alt')
+        section.with
+            .container
+                .row
+                    .with__grants
+                        h3 Projects built with grants
+                    .with__lorem
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum atque soluta rerum a aliquid dolorur
+                    .with__view
+                        a(href='#') View all funded projects
+                            i.fa-solid.fa-arrow-right
+        section.carde
+            .container
+                .row
+                    .card(style='width: 24rem;')
+                        .card-body
+                            p.card-a Crowdfund
+                            h4.card-title Funding rates page
+                            p.card-desc Funding amount: $5,000 - $6,000
+                            p.card-texta Grant will be used to build a dedicated web app to give traders a view of all dYdX asset funding rates across multiple timeframes. The page will be interactive to include deep diving across different assets and historical analysis of changing rates. It will also include API functionalities to allow developer access.
+                            .card__img
+                                img(src='img/kallacha e.png' alt='')
+                            .card__imge
+                                img(src='img/kallaca a.png' alt='')
+                    .card(style='width: 24rem;')
+                        .card-body
+                            p.card-s Crowdfund
+                            h4.card-title Tradingview integration
+                            p.card-desc Funding amount: $5,000 - $6,000
+                            p.card-text The grant will be used to build a web application that integrates Tradingview strategies into a dYdX Trading account to execute trades directly through a strategy. Users will be able to tap into Tradingview resources and test out different ...
+                            .card__img
+                                img(src='img/kal.png' alt='')
+                            .card__imge
+                                img(src='img/shilliapa.png' alt='')
+                            .card__imgee
+                                img(src='img/kok.png' alt='')
+                    .card(style='width: 24rem;')
+                        .card-body
+                            p.card-e Crowdfund
+                            h4.card-title Card title
+                            p.card-desc Funding amount: $5,000 - $6,000
+                            p.card-texte The grant will be used to build a web application that integrates Tradingview strategies into a dYdX Trading account to execute trades directly through a strategy. Users will be able to tap into Tradingview resources and test out different ...
+                            .card__img
+                                img(src='img/kal.png' alt='')
+                            .card__imge
+                                img(src='img/shilliapa.png' alt='')
+                            .card__imgee
+                                img(src='img/kok.png' alt='')
+
+        section.muha
+            .container
+                .row
+                    .muha__img
+                        img(src='img/002.png' alt='')
+                    .muha__new
+                        h2 What&rsquo;s new?
+                    .muha__lorem
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum atque soluta rerum a aliquid dolorur
+                    .muha__read
+                        a(href='#') Read more on our blog
+                            i.fa-solid.fa-arrow-right
+            section.cards
+                .container
+                    .row
+                        .cardf(style='width: 18rem;')
+                            img(src='img/Image Block.png' alt='alt')
+                            .card-body
+                                p.q Funding round
+                                h5.card-title Round 9 of approvals
+                                p.p January 1, 2022
+                        .card2(style='width: 18rem;')
+                            img(src='img/Image Block.png' alt='alt')
+                            .card-body
+                                p.q Funding round
+                                h5.card-title Round 8 of approvals
+                                p.p January 1, 2022
+                section.muha
+                    .container
+                        .row
+                            .muha__new
+                                h2 Frequently asked questions
+                            .muha__image
+                                img(src='img/003.png' alt='ff')
+                            .muha__aca
+                                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum atque soluta rerum a aliquid dolorur
+                section.acar
+                    .container
+                        .row
+                            #accordionPanelsStayOpenExample.accordion
+                        .accordion-item
+                            h2#panelsStayOpen-headingOne.accordion-header
+                                button.accordion-button(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseOne' aria-expanded='true' aria-controls='panelsStayOpen-collapseOne')How do I apply?
+                                    #panelsStayOpen-collapseOne.accordion-collapse.collapse.show(aria-labelledby='panelsStayOpen-headingOne')
+                        .accordion-body
+                            strong This is the first item&apos;s accordion body.It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                code .accordion-body , though the transitio does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingTwo.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseTwo' aria-expanded='false' aria-controls='panelsStayOpen-collapseTwo') Can I apply as a U.S. based person/company?
+                                    #panelsStayOpen-collapseTwo.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingTwo')
+                        .accordion-body
+                            strong This is the second item&apos;s accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                code .accordion-body, though the transition does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingThree.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseThree' aria-expanded='false' aria-controls='panelsStayOpen-collapseThree') How will I be compensated?
+                                    #panelsStayOpen-collapseThree.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingThree')
+                        .accordion-body
+                                strong This is the third item&apos;s accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                    code .accordion-body, though the transition does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingThree.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseThre' aria-expanded='false' aria-controls='panelsStayOpen-collapseThre')What type of project will qualify for a Grant?
+                                    #panelsStayOpen-collapseThre.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingThre')
+                        .accordion-body
+                            strong This is the third item&apos;s accordion body.It is hidden default, until the collapse plugin adds the appropriate classes that we use style each element. These classes control the overall appearance, as well as  showing and hiding via CSS transitions. You can modify any of this with cus CSS or overriding our default variables. It&apos;s also worth noting that just ab any HTML can go within the 
+                                code .accordion-body, though the transition does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingThre.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseThr' aria-expanded='false' aria-controls='panelsStayOpen-collapseThr') What is the application timeline? When can I expect to hear back?
+                                    #panelsStayOpen-collapseThr.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingThr')
+                        .accordion-body
+                            strong This is the third item&apos;s accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                code .accordion-body, though the transition does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingThre.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseThro' aria-expanded='false' aria-controls='panelsStayOpen-collapseThro') How can I increase my chances of getting funded?
+                                    #panelsStayOpen-collapseThro.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingThro')
+                        .accordion-body
+                            strong This is the third item&apos;s accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                code .accordion-bod , though the transition does limit overflow.
+                        .accordion-item
+                            h2#panelsStayOpen-headingThre.accordion-header
+                                button.accordion-button.collapsed(type='button' data-bs-toggle='collapse' data-bs-target='#panelsStayOpen-collapseThrq' aria-expanded='false' aria-controls='panelsStayOpen-collapseThrq') How often do you approve new Rounds of funding?
+                                    #panelsStayOpen-collapseThrq.accordion-collapse.collapse(aria-labelledby='panelsStayOpen-headingThrq')
+                        .accordion-body
+                            strong This is the third item&apos;s accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It&apos;s also worth noting that just about any HTML can go within the 
+                                code .accordion-bod , though the transition does limit overflow.
+        section.muha
+            .container
+                .row
+                    .muha__new
+                        h2 Application process
+                            .muha__aca
+                                p.i Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate earum atque soluta rerum a aliquid dolorur
+        section.carder
+            .container
+                .row
+                    .card6(style='width: 20rem;')
+                        .card-body
+                            h2.card-title 1
+                                h5 Apply
+                                    p.card-text Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    .carder__img
+                        img(src='img/Right arrow curved (2).png' alt='')
+                    .card4(style='width: 20rem;')
+                        .card-body
+                            h2.card-title 2
+                            h5 Interview
+                            p.card-text Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+                    .carder__image
+                        img(src='img/Right arrow curved (3).png' alt='')
+                                                                            
+                    .card3(style='width: 20rem;')
+                        .card-body
+                            h2.card-title 3
+                            h5 Grant offer
+                            p.card-text Some quick example text to build on the card title and make up the bulk of the card&apos;s content.
+        section.have
+            .container
+                .row
+                    .cardo.text-center
+                        .card-body
+                            h5.card-title Have a project in mind?
+                            h2.card-text Let&rsquo;s create something awesome.
+                                a.btn.btn-primary(href='#') Go somewhere
+                footer.footer
+                    .container
+                        .row
+                            .footer__img
+                                img(src='img/x.png' alt='fv')
+                            .footer__menu
+                                ul
+                                    li
+                                        a(href='#') About
+                                    li
+                                        a(href='#') FAQ
+                                    li
+                                        a(href='#') Brand assets
+                                    li
+                                        a(href='#') dYdX Foundation
+                                        i.fa-solid.fa-arrow-up-right-from-square
+                                    li
+                                        a(href='#') dYdX trading
+                                        i.fa-solid.fa-arrow-up-right-from-square
+                            .footer2__menuu
+                                ul
+                                    li
+                                        a(href='#') About
+                                    li
+                                        a(href='#') FAQ
+                                    li
+                                        a(href='#') Brand assets
+                                    li
+                                        a(href='#') dYdX Foundation
+                                            i.fa-solid.fa-arrow-up-right-from-square
+                                    li
+                                        a(href='#') dYdX trading
+                                            i.fa-solid.fa-arrow-up-right-from-square
+                            .footer__icon
+                                i.fa-brands.fa-twitter
+                                i.fa-brands.fa-discord
+
+        script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous")
